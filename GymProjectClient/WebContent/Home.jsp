@@ -26,7 +26,7 @@
 	<nav>
 		<a class="active" href="Home.jsp">Home</a> <a href="About.jsp">About</a> <a
 			href="Crud.jsp">Crud</a><a href="Test.jsp">Test</a>
-	</nav>	
+</nav>	
 <body> 
 <aside>
 <table id="asideTable">
