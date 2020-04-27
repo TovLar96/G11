@@ -17,6 +17,7 @@
 <meta charset="ISO-8859-1">
 
 </head>
+
 <body>
 <header>
 		<h1>Header</h1>
@@ -25,7 +26,20 @@
 	<nav>
 		<a class="active" href="Home.jsp">Home</a> <a href="About.jsp">About</a> <a
 			href="Crud.jsp">Crud</a><a href="Test.jsp">Test</a>
-
-	</nav>
+	</nav>	
+<body> 
+<aside>
+<table id="asideTable">
+<tr>
+<th><span id="city"></span></th> <th><span></span></th> <th><span></span></th>
+<th><span id="ipNbr"></span></th>
+</tr> <tr>
+<td><span id="degree"></span></td> <td><span id="weather"></span></td> <td><span></span></td> <td><span></span></td>
+</tr> <tr>
+<td colspan="4"><span id="sunrise"></span></td> </tr>
+<tr>
+<td colspan="4"><span id="sunset"></span></td>
+</tr>
+</table> </aside>
 </body>
 </html>
